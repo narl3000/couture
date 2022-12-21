@@ -1,0 +1,233 @@
+@import url("../style.css");
+
+/* Section Event */
+.event-type {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+
+}
+
+
+
+.event-date {
+    font-size: calc(var(--text-s) - 0.2em);
+    font-weight: 300;
+    display: block;
+}
+
+.event-list {
+    padding: 10px;
+    list-style: none;
+}
+
+.event-next-title-description {
+    font-size: 12px;
+    color: var(--secondary-color-intense);
+}
+
+@media screen and (min-width: 767px) {
+    .idee-container {
+        display: flex;
+        background-color: var(--primary-color);
+    }
+}
+
+/* Article Event - Next*/
+.article {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 21px;
+}
+
+.article-title {
+    font-size: calc(var(--secondary-title-s) - 0.6em);
+    font-weight: 800;
+    padding: 5px;
+    color: black
+}
+
+.page-subtitle-description {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.article-title {
+    font-size: calc(var(--secondary-title-s) - 0.6em);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+
+.article-description {
+    font-size: calc(var(--secondary-title-s) - 0.6em);
+    font-style: italic;
+    padding: 5px;
+}
+
+.second-article-title {
+    font-size: calc(var(--secondary-title-s) - 0.6em);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+
+.second-article-description {
+    font-size: calc(var(--secondary-title-s) - 0.6em);
+    font-style: italic;
+    padding: 5px;
+}
+
+
+
+.photo-accessoires,
+.photo-jouets,
+.photo-costumes {
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+}
+
+
+.photo-echarpe {
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+    ;
+
+}
+
+
+@media screen and (min-width: 767px) {
+    .texte-et-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      max-width: 300px;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 100px;
+
+
+    }
+
+    .trait {
+        width: 500px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+
+    .button {
+        display: flex;
+        font-weight: 600;
+        font-size: var(--text-s);
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+        background-color: var(--secondary-color);
+        text-decoration: none;
+        justify-content: center;
+        margin: 7%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 15%);
+        min-width: 127px;
+        min-height: 26px;
+        color: #000;
+
+
+    }
+
+
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+      align-items: center;
+    }
+
+
+    .photo-echarpe {
+        width: 65%;
+        height: 65%;
+    }
+
+    .article-title {
+        padding: 0;
+    }
+
+    .event-next-block {
+        margin-top: 5px;
+    }
+
+    .article-echarpe {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .article-texte {
+        justify-content: left;
+
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .Accessoires,
+    .Jouets,
+    .Costumes {
+        margin-bottom: 8%;
+    }
+
+
+
+    .photo-echarpe {
+        width: 90%;
+        height: 90%;
+    }
+
+    .article-texte {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .button {
+        display: block;
+        font-weight: 600;
+        font-size: var(--secondary-title-s);
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        background-color: var(--secondary-color);
+        border-radius: 3px;
+        text-decoration: none;
+        color: #000;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 15%);
+
+    }
+
+    .article-title {
+        font-size: var(--primary-title-s);
+    }
+}
+
+.categories {
+    text-align: center;
+}
